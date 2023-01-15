@@ -12,18 +12,18 @@
         android:theme="@style/Theme.Wolf_Bar"
         tools:targetApi="31" >
         <activity
-            android:name=".AdminActivity"
+            android:name=".presentation.AdminActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".AdminMemberActivity"
+            android:name=".presentation.MainActivity"
             android:exported="false" />
 
         <activity
-            android:name=".StartApp"
+            android:name=".presentation.AdminMemberActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".presentation.StartApp"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

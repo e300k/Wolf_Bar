@@ -1,4 +1,4 @@
-package com.example.wolf_bar
+package com.example.wolf_bar.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

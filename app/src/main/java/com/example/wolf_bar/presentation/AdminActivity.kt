@@ -1,4 +1,4 @@
-package com.example.wolf_bar
+package com.example.wolf_bar.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,9 +6,9 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.wolf_bar.R
 import com.example.wolf_bar.databinding.ActivityAdminBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
-
 
 class AdminActivity : AppCompatActivity() {
 
