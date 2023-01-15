@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "665074315536",
+    "firebase_url": "https://wolfbar-res-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "wolfbar-res",
+    "storage_bucket": "wolfbar-res.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665074315536:android:1e0a1a93501e290d637595",
+        "android_client_info": {
+          "package_name": "com.example.wolf_bar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665074315536-gad4l0ve91016u3mfdj36e713r8qbs19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhGAWj_6pDjA17p4qsRgz1rLTlklRS-z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665074315536-gad4l0ve91016u3mfdj36e713r8qbs19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665074315536:android:123b63f8aeddec0b637595",
+        "android_client_info": {
+          "package_name": "com.example.wolfbarres"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665074315536-gad4l0ve91016u3mfdj36e713r8qbs19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhGAWj_6pDjA17p4qsRgz1rLTlklRS-z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665074315536-gad4l0ve91016u3mfdj36e713r8qbs19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WolfBarRes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome">ยินดีต้อนรับ</string>
+    <string name="res_name"><![CDATA[Wolf\'s Den Bar & Restaurant]]></string>
+    <string name="title_activity_admin_member">AdminMemberActivity</string>
+</resources>
