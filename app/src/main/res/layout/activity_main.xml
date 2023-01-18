@@ -7,22 +7,44 @@
     android:background="@drawable/bg_start"
     tools:context=".presentation.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="600dp"
+        android:layout_height="440dp"
+        android:src="@drawable/loginontop"
+        android:alpha="0.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="607dp"
+        android:layout_height="210dp"
+        android:src="@drawable/loginontop2"
+        android:alpha="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="265dp"
+        android:layout_height="236dp"
         android:src="@drawable/logo_wolfbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153"/>
+        app:layout_constraintVertical_bias="0.153" />
+
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="589dp"
-        android:layout_height="433dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/ic_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
@@ -31,20 +53,46 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.738" />
 
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/shapelong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+
+    <ImageView
+        android:id="@+id/logoblacks"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintCircleRadius="10dp"
+        android:src="@drawable/logo_wolfbar"
+        android:background="@drawable/circle"
+        android:layout_marginStart="7dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="335dp"
         android:layout_height="36dp"
         android:text="@string/res_name"
-
         android:textAlignment="center"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.2" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/logoblacks"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/logoblacks"
+        app:layout_constraintVertical_bias="0.19" />
 
     <EditText
         android:id="@+id/txtUsername"
@@ -71,17 +119,29 @@
         app:layout_constraintStart_toStartOf="@+id/txtUsername"
         app:layout_constraintTop_toBottomOf="@+id/txtUsername" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnLogin"
         android:layout_width="199dp"
-        android:layout_height="53dp"
-        android:text="เข้าสู่ระบบ"
+        android:layout_height="40dp"
         android:textAlignment="center"
+        android:background="@drawable/shapelong"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/txtPassword"
-        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="@+id/txtPassword"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:text="เข้าสู่ระบบ"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

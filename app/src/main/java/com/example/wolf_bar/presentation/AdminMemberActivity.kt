@@ -1,23 +1,23 @@
 package com.example.wolf_bar.presentation
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.wolf_bar.databinding.ActivityAdminMemberBinding
-
+import android.os.Bundle
+import com.example.wolf_bar.databinding.ActivityMemberAdminBinding
 
 class AdminMemberActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityAdminMemberBinding
-
+    private lateinit var binding: ActivityMemberAdminBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityAdminMemberBinding.inflate(layoutInflater)
+        binding = ActivityMemberAdminBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 
-    }
-
-    private fun logout() {
 
     }
+
+    fun onClickMember(){
+
+    }
+
 }

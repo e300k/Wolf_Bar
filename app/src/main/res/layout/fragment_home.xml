@@ -7,57 +7,77 @@
     tools:context=".ui.home.HomeFragment">
 
     <Button
-        android:id="@+id/btnMemberAdmin"
-        android:text="จัดการสมาชิก"
-        android:layout_width="160dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="180dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.301"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnMenuAdmin"
-        android:text="จัดการเมนู"
-        android:layout_width="160dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="180dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.707"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
         android:id="@+id/btnOrderAdmin"
-        android:text="ออเดอร์ลูกค้า"
         android:layout_width="160dp"
         android:layout_height="150dp"
-        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/green"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:padding="30dp"
+        android:text="ออเดอร์ลูกค้า"
         app:layout_constraintEnd_toEndOf="@+id/btnMemberAdmin"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@+id/btnMemberAdmin"
-        app:layout_constraintTop_toBottomOf="@+id/btnMemberAdmin" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMemberAdmin"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
-        android:id="@+id/btnTopMenuAdmin"
-        android:text="เมนูขายดี"
+        android:id="@+id/btnMemberAdmin"
         android:layout_width="160dp"
         android:layout_height="150dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/btnMenuAdmin"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btnMenuAdmin"
-        app:layout_constraintTop_toBottomOf="@+id/btnMenuAdmin" />
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/green"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:padding="30dp"
+        android:text="จัดการสมาชิก"
+        app:layout_constraintEnd_toStartOf="@+id/btnMenuAdmin"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
         android:id="@+id/btnRevenueAdmin"
-        android:text="สรุปรายได้"
         android:layout_width="160dp"
         android:layout_height="150dp"
-        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/green"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:padding="30dp"
+        android:text="สรุปรายได้"
         app:layout_constraintEnd_toEndOf="@+id/btnOrderAdmin"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/btnOrderAdmin"
         app:layout_constraintTop_toBottomOf="@+id/btnOrderAdmin" />
+
+    <Button
+        android:id="@+id/btnMenuAdmin"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/green"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:padding="30dp"
+        android:text="จัดการเมนู"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMemberAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnMemberAdmin"
+        app:layout_constraintTop_toTopOf="@+id/btnMemberAdmin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnTopMenuAdmin"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/green"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:padding="30dp"
+        android:text="เมนูขายดี"
+        app:layout_constraintBottom_toBottomOf="@+id/btnOrderAdmin"
+        app:layout_constraintEnd_toEndOf="@+id/btnMenuAdmin"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btnMenuAdmin"
+        app:layout_constraintTop_toTopOf="@+id/btnOrderAdmin"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

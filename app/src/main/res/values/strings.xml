@@ -7,4 +7,5 @@
     <string name="welcome">ยินดีต้อนรับ</string>
     <string name="res_name"><![CDATA[Wolf\'s Den Bar & Restaurant]]></string>
     <string name="title_activity_admin_member">AdminMemberActivity</string>
+    <string name="Admin">ผู้ดูแลระบบ</string>
 </resources>
